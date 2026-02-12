@@ -2,7 +2,7 @@
 
 An interactive, feature-rich Snake Game built using **React + Vite + Tailwind CSS**.
 
-🔗 **Live Demo:** https://vercdeploy.vercel.app/
+🔗 **Live Demo:** https://snakegamenikz.vercel.app/
 
 ---
 
