@@ -1,18 +1,56 @@
-# React + Vite
+# 🐍 Snake Game – React Arcade Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, feature-rich Snake Game built using **React + Vite + Tailwind CSS**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://vercdeploy.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- 🎮 Classic Snake gameplay
+- 👤 Player name input
+- 🏆 Persistent High Score (localStorage)
+- ⚡ Increasing speed as you progress
+- 🔵 Bonus blue food (+5 points)
+- ⏳ 10-second bonus timer
+- 📊 Animated green countdown progress bar
+- 🔊 Sound effects (eat, bonus, game over)
+- 🌙 Dark mode toggle
+- 🧱 Random obstacles
+- 🐍 Realistic snake with head & directional eyes
+- 📱 Responsive UI
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🧠 Bonus Mechanics
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Every 5th food becomes a **Blue Bonus Food**
+- Bonus lasts for **10 seconds**
+- Visual countdown bar shrinks in real-time
+- If not eaten → turns back to normal food
+- Bonus gives **+5 points**
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React (Hooks)
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🔊 HTML5 Audio API
+- 💾 localStorage API
+- 🚀 Vercel (Deployment)
+
+---
+
+## 🎯 How to Play
+
+1. Enter your name
+2. Click **Play Game**
+3. Use Arrow Keys to move
+4. Avoid walls, obstacles & your own body
+5. Eat food to grow and increase score
+6. Catch blue bonus food before timer ends!
+
+
